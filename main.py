@@ -14,4 +14,4 @@ Skm = Smp * 1.60934
 Sae = Smp / aemp
 sec = (Skm / ekms) * 2
 hour = sec / 60
-print('Задержка связи', hour,'часа')
+print('Задержка связи', hour,'часов')
