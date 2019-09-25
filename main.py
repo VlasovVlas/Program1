@@ -8,3 +8,10 @@ ae = s / aemp
 print(s, "Миль")
 print(km, "Километров")
 print(ae, 'Астрономических единиц')
+ekms = 299792458 / 1000
+Smp = s - 16637000000                            #растояние от Земли
+Skm = Smp * 1.60934
+Sae = Smp / aemp
+sec = (Skm / ekms) * 2
+hour = sec / 60
+print('Задержка связи', hour,'часа')
